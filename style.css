@@ -1,0 +1,350 @@
+body{
+    background-image: url(./b2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+h1{
+    font-family: "Permanent Marker", cursive;
+    color: azure;
+    margin-top: 5px;
+    margin-left: 30px;
+    font-size: 5cap;
+
+}
+/* video{
+    width: 100%;
+    height: 900px;
+    padding: 0px;
+    
+}
+.vadi{
+   
+    color: rgba(240, 240, 240, 0.784);
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    background-color: rgba(31, 178, 48, 0.493);
+} */
+header{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    background-image: url(./aa.jpg);
+     /* position: sticky; */
+    top: 0px; 
+    margin: 0px;
+    
+}
+li{
+    color: azure;
+}
+header ul{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    padding-top: 0px;
+}
+header ul li{
+    float: left;
+    margin: 20px;
+    list-style: none;
+    
+}
+?
+header ul li a{
+    text-decoration: none;
+    color: rgb(238, 238, 238);
+}
+header ul li a:hover{
+    color: rgb(73, 73, 73);
+   
+}
+section video{
+    width: 100%;
+    
+}
+.row{
+    width: 1100px;
+    height: 520px;
+    background-color: rgba(245, 245, 220, 0);
+    margin-left: 14%;
+}
+.col{
+    width: 500px;
+    height: 500px;
+    float: left;
+    background-color: rgba(0, 255, 255, 0);
+
+}
+.cow{
+    width: 500px;
+    height: 120px;
+    background-color: rgba(0, 217, 255, 0.184);
+    padding: 10px;
+    margin-top: 140px;
+    border-radius: 30px;
+    box-shadow: 3px 2px 12px 8px rgba(0, 174, 255, 0.167);
+}
+.col h1{
+    color: rgb(212, 251, 255);
+    font-size: 4cap;
+    margin-top: 0px;
+    
+}
+.col h2{
+    color: rgb(212, 251, 255);
+    margin-left: 30px;
+    margin-bottom: 0px;
+    /* margin-bottom: 0px;
+    margin-top: 150px; */
+    
+}
+.col img{
+    width: 400px;
+    height: 400px;
+    background-color: rgba(127, 255, 212, 0);
+}
+
+
+.row1{
+    width: 1100px;
+    height: 520px;
+    background-color: rgba(245, 245, 220, 0);
+    margin-left: 10%;
+}
+/* about */
+.cop{
+    width: 550px;
+    height: 500px;
+    float: left;
+    
+    
+}
+.abt{ width: 500px;
+    height: 300px;
+    float: left;
+    background-color: rgba(105, 182, 182, 0.401);
+    border-radius: 20px;
+    margin-top: 80px;
+    padding: 14px;
+    box-shadow: 3px 2px 12px 8px rgba(105, 182, 182, 0.418);
+    
+}
+.cop h1{
+    color: rgb(212, 251, 255);
+    font-size: 4cap;
+    margin-top: 0px;
+    
+}
+.cop h2{
+    color: rgb(218, 251, 255);
+   
+    margin-bottom: 0px;
+   
+    
+}
+.cop img{
+    width: 400px;
+    height: 400px;
+    background-color: rgba(127, 255, 212, 0);
+    padding-left: 50px;
+}
+.cop p{
+    color: azure;
+    text-align: justify;
+    padding-left: 0;
+    font-style: italic;
+}
+/* project */
+.ro{
+    width: 1450px;
+    height: 820px;
+    background-color: rgba(195, 195, 195, 0);
+    margin-left: 20PX;
+    margin-top: 0px;
+}
+h1{
+    margin-bottom: 1px;
+}
+.co{
+    width: 500px;
+    height: 700px;
+    float: left;
+   
+
+}
+.co1{
+    
+    width: 500px;
+}
+.co2{
+    width: 950px;
+    background-color: rgba(87, 204, 165, 0);
+}
+
+.co h1{
+    color: rgb(212, 251, 255);
+    font-size: 4cap;
+    margin-top: 0px;
+    
+}
+.co h2{
+    color: rgba(218, 251, 255, 0.11);
+   
+    margin-bottom: 0px;
+   
+    
+}
+.co img{
+    width: 400px;
+    height: 400px;
+    background-color: rgba(127, 255, 212, 0);
+    padding-left: 50px;
+    padding-top: 180px;
+}
+.pro{
+    width: 200px;
+    height: 300px;
+    /* border: 2px solid rgba(0, 0, 0, 0.286); */
+    float: left;
+    margin: 40px;
+    padding: 0px;
+    background-color: rgba(127, 242, 255, 0.453);
+    box-shadow: 3px 2px 12px 8px rgba(41, 156, 176, 0.544);
+}
+.pro img{
+    width: 180px;
+    height: 180px;
+    margin: 0px;
+    padding: 10px;
+    background-size: cover;
+    border-radius: 30px;
+}
+.pro h3{
+    color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+}
+.pro p{
+    color: white;
+    margin-top: 0px;
+    margin-left: 10px;
+}
+.flip-box {
+    background-color: transparent;
+    width: 180px;
+    height: 180px;
+    /* border: 1px solid #f1f1f1; */
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+    
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-box-front, .flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-box-front {
+    /* background-color: #bbb;
+    color: black; */
+  }
+  
+  /* Style the back side */
+  .flip-box-back {
+    background-color: rgba(30, 143, 255, 0);
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+p{
+    text-align: justify;
+}
+
+
+
+
+footer{
+    width: 100%;
+    height: 240px;
+
+    background-color: rgba(127, 242, 255, 0.453);
+    padding: 10px;
+    background-image: url(./background.avif);
+    background-size: cover;
+}
+footer h2{
+    color: azure;
+    margin-top: 4px;
+
+    
+}
+footer h4{
+    color: azure;
+    margin-top: 0px;
+}
+table{
+    background-color: rgba(127, 242, 255, 0.521);
+    box-shadow: 3px 2px 12px 8px rgba(41, 156, 176, 0.544);
+    padding: 10px;
+}
+.ser{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: space-around;
+  
+  
+
+}
+.se1{
+    width: 270px;
+    height: 500px;
+    margin: 50px;
+    background-color: rgba(127, 242, 255, 0.521);
+    box-shadow: 3px 2px 12px 8px rgba(41, 156, 176, 0.544);
+
+}
+.ser img{
+    width: 250px;
+    height: 180px;
+    margin: 10px;
+}
+
+.ser h3{
+     text-align: center;
+     color: white;
+}
+.ser p{
+    color: white;
+    text-align: justify;
+    padding: 10px;
+}
+
+
+
+
